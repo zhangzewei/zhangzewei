@@ -1,0 +1,200 @@
+{
+    "personalInfo": {
+        "name": "Zewei Zhang",
+        "title": "Full-Stack Engineer",
+        "location": "Chengdu, China",
+        "company": "57blocks",
+        "experience": "8+ years",
+        "email": "zewei.zhang@57blocks.com",
+        "githubUsername": "zhangzewei",
+        "portfolioUrl": "https://zhangzewei.dev",
+        "blogUrl": "https://blog.zhangzewei.dev",
+        "linkedinUrl": "https://linkedin.com/in/zhangzewei",
+        "twitterUrl": "https://twitter.com/zhangzewei"
+    },
+    "aboutMe": {
+        "currentWork": "Web3 DApps and full-stack applications at 57blocks",
+        "currentLearning": "Advanced Web3 technologies and Smart Contract optimization",
+        "lookingToCollaborate": "Web3 projects and innovative blockchain solutions",
+        "askMeAbout": "React, Web3, Solidity, Node.js, and Front-end Architecture",
+        "funFact": "I specialize in bridging traditional web development with cutting-edge blockchain technology!"
+    },
+    "skills": {
+        "programmingLanguages": [
+            "JavaScript",
+            "TypeScript",
+            "Solidity",
+            "C",
+            "PHP"
+        ],
+        "frontend": [
+            "React",
+            "Vue.js",
+            "Angular",
+            "HTML5",
+            "CSS3",
+            "Bootstrap",
+            "Tailwind CSS",
+            "Taro"
+        ],
+        "backend": [
+            "Node.js",
+            "Express.js",
+            "NestJS",
+            "GraphQL"
+        ],
+        "databases": [
+            "MongoDB",
+            "CouchDB",
+            "PostgreSQL",
+            "Elasticsearch"
+        ],
+        "web3": [
+            "Ethereum",
+            "Solidity",
+            "Hardhat",
+            "web3.js",
+            "ethers.js",
+            "Stellar",
+            "Wagmi",
+            "Viem",
+            "Dynamic"
+        ],
+        "cloudDevOps": [
+            "Docker",
+            "Jenkins",
+            "AWS"
+        ],
+        "tools": [
+            "Git",
+            "VS Code",
+            "Figma",
+            "Postman",
+            "Chrome Extension"
+        ]
+    },
+    "currentFocus": {
+        "areas": [
+            "Web3 Development",
+            "Full-Stack Engineering",
+            "Smart Contract Development"
+        ],
+        "technologies": {
+            "frontend": [
+                "React",
+                "Vue.js",
+                "TypeScript",
+                "Next.js"
+            ],
+            "backend": [
+                "Node.js",
+                "Python",
+                "Java",
+                "Go"
+            ],
+            "databases": [
+                "PostgreSQL",
+                "MongoDB",
+                "Redis"
+            ],
+            "cloud": [
+                "AWS",
+                "Docker",
+                "Kubernetes"
+            ],
+            "tools": [
+                "Git",
+                "Jenkins",
+                "Docker",
+                "VS Code"
+            ]
+        },
+        "architecture": [
+            "Microservices",
+            "Event-Driven",
+            "Serverless"
+        ],
+        "currentlyLearning": [
+            "Advanced Solidity Patterns",
+            "Layer 2 Solutions",
+            "Cross-chain Development"
+        ],
+        "goals2024": [
+            "Contribute to Web3 Ecosystem",
+            "Master DeFi Protocols",
+            "Build Innovative DApps"
+        ]
+    },
+    "projects": [
+        {
+            "name": "Story Protocol - Public Domain IP",
+            "url": "https://github.com/storyprotocol/public-domain-beta",
+            "description": "Web3 IP Management Platform - A decentralized platform for intellectual property management",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "PostgreSQL",
+                "Node.js",
+                "Dynamic Wallet"
+            ],
+            "features": [
+                "Metamask wallet integration with Dynamic",
+                "IP minting and exploration functionality",
+                "Database design and data import automation",
+                "Public domain IP creation hub"
+            ]
+        },
+        {
+            "name": "Soul Wallet - Elytro",
+            "url": "https://github.com/Elytro-eth/Elytro",
+            "description": "Web3 Wallet Extension - Smart contract wallet with advanced authentication",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Viem",
+                "shadcn/ui",
+                "WebAuthn"
+            ],
+            "features": [
+                "Multi-device login with WebAuthn authentication",
+                "Chrome extension DApp communication (EIP-6369)",
+                "Transaction signing and history management",
+                "Account and network switching functionality"
+            ]
+        },
+        {
+            "name": "Stellar Resource Usage Report",
+            "url": "https://github.com/57blocks/stellar-resource-usage-report",
+            "description": "Blockchain Analytics Tool - JavaScript library for Stellar network resource calculation",
+            "technologies": [
+                "TypeScript",
+                "Node.js",
+                "Stellar SDK"
+            ],
+            "features": [
+                "Resource usage calculation for Stellar network",
+                "Decorator pattern implementation for client management",
+                "Comprehensive testing suite with tutorial guides",
+                "SDK integration for blockchain resource monitoring"
+            ]
+        },
+        {
+            "name": "Dolphin & ChainSpan - Web3 Hackathon",
+            "url": "https://github.com/57blocks/dolphin_ui",
+            "description": "DeFi IP Token Platform - Account abstraction and smart contract interaction platform",
+            "technologies": [
+                "React",
+                "Next.js",
+                "Wagmi",
+                "Alchemy",
+                "GraphQL"
+            ],
+            "features": [
+                "Dynamic wallet connection for DApp integration",
+                "Account Abstraction Smart Account with Alchemy",
+                "IP token transaction chain with Wagmi",
+                "Subgraph data recording and GraphQL queries"
+            ]
+        }
+    ]
+}
