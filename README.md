@@ -1,9 +1,5 @@
 # Hi there, I'm Zewei Zhang! 👋
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer;Web3+Developer;Blockchain+Enthusiast;8+ years+Experience!" alt="Typing SVG" />
-</div>
-
 ## 🚀 About Me
 
 I'm a passionate **Full-Stack Engineer** with **8+ years** of experience in building scalable web applications, Web3 DApps, and innovative blockchain solutions. Based in **Chengdu, China**, I specialize in bridging traditional web development with cutting-edge blockchain technology.
@@ -19,7 +15,7 @@ I'm a passionate **Full-Stack Engineer** with **8+ years** of experience in buil
 - 🌱 I'm currently learning **Advanced Web3 technologies and Smart Contract optimization**
 - 👯 I'm looking to collaborate on **Web3 projects and innovative blockchain solutions**
 - 💬 Ask me about **React, Web3, Solidity, Node.js, and Front-end Architecture**
-- 📫 How to reach me: **zewei.zhang@57blocks.com**
+- 📫 How to reach me: **453646474@qq.com**
 - ⚡ Fun fact: **I specialize in bridging traditional web development with cutting-edge blockchain technology!**
 
 ## 🛠️ Tech Stack
