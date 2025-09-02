@@ -169,12 +169,31 @@ function generateProjects(projects) {
 
 // 生成完整的 README
 async function generateReadme(config) {
-    const { personalInfo, aboutMe, skills, currentFocus, projects } = config;
+    const { personalInfo, aboutMe, skills, currentFocus, projects, workExperience = [], education = [] } = config;
+
+    // Build social links block conditionally
+    const socialLinks = [];
+    if (personalInfo.linkedinUrl) {
+        socialLinks.push(`[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](${personalInfo.linkedinUrl})`);
+    }
+    if (personalInfo.twitterUrl) {
+        socialLinks.push(`[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](${personalInfo.twitterUrl})`);
+    }
+    if (personalInfo.email) {
+        socialLinks.push(`[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:${personalInfo.email})`);
+    }
+    if (personalInfo.portfolioUrl) {
+        socialLinks.push(`[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](${personalInfo.portfolioUrl})`);
+    }
+    if (personalInfo.blogUrl) {
+        socialLinks.push(`[![Blog](https://img.shields.io/badge/Blog-FFA500?style=for-the-badge&logo=rss&logoColor=white)](${personalInfo.blogUrl})`);
+    }
+    const socialLinksBlock = `<div align="center">\n  \n${socialLinks.join('\n')}\n\n</div>`;
 
     const readme = `# Hi there, I'm ${personalInfo.name}! 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=${personalInfo.title.replace(/\s+/g, '+')};Web3+Developer;Blockchain+Enthusiast;${personalInfo.experience}+Experience!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=${personalInfo.title.replace(/\s+/g, '+')};Web3+Developer;Blockchain+Enthusiast;${personalInfo.experience}+Experience!" alt="Typing SVG" />
 </div>
 
 ## 🚀 About Me
@@ -238,6 +257,26 @@ const ${personalInfo.githubUsername} = {
 
 ${generateProjects(projects)}
 
+## 🧑‍💻 Work Experience
+
+${workExperience.map(exp => {
+        const period = `${exp.startDate} - ${exp.endDate}`;
+        const header = `### ${exp.company} — ${exp.role} (${period})`;
+        const location = exp.location ? `- 📍 ${exp.location}\n` : '';
+        const projects = exp.projects && exp.projects.length ? `- 🔗 Key Projects: ${exp.projects.join(', ')}\n` : '';
+        const highlights = exp.highlights && exp.highlights.length ? exp.highlights.map(h => `- • ${h}`).join('\n') + '\n' : '';
+        return `${header}\n${location}${projects}${highlights}`;
+    }).join('\n')}
+
+## 🎓 Education
+
+${education.map(ed => {
+        const period = `${ed.startDate} - ${ed.endDate}`;
+        const header = `### ${ed.school} — ${ed.degree} (${period})`;
+        const details = ed.details && ed.details.length ? ed.details.map(d => `- • ${d}`).join('\n') + '\n' : '';
+        return `${header}\n${details}`;
+    }).join('\n')}
+
 ## 📊 This Week I Spent My Time On
 
 <!--START_SECTION:waka-->
@@ -252,21 +291,7 @@ Other        1 hr 10 mins    ██░░░░░░░░░░░░░░░
 
 ## 🤝 Let's Connect
 
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](${personalInfo.linkedinUrl})
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](${personalInfo.twitterUrl})
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:${personalInfo.email})
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](${personalInfo.portfolioUrl})
-[![Blog](https://img.shields.io/badge/Blog-FFA500?style=for-the-badge&logo=rss&logoColor=white)](${personalInfo.blogUrl})
-
-</div>
-
-## 💰 Support My Work
-
-If you like my work and want to support me, consider buying me a coffee! ☕
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/${personalInfo.githubUsername})
+${socialLinksBlock}
 
 ---
 

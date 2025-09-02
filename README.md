@@ -1,5 +1,9 @@
 # Hi there, I'm Zewei Zhang! 👋
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer;Web3+Developer;Blockchain+Enthusiast;8+ years+Experience!" alt="Typing SVG" />
+</div>
+
 ## 🚀 About Me
 
 I'm a passionate **Full-Stack Engineer** with **8+ years** of experience in building scalable web applications, Web3 DApps, and innovative blockchain solutions. Based in **Chengdu, China**, I specialize in bridging traditional web development with cutting-edge blockchain technology.
@@ -24,8 +28,6 @@ I'm a passionate **Full-Stack Engineer** with **8+ years** of experience in buil
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![C](https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 ### Frontend Development
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -173,6 +175,25 @@ const zhangzewei = {
 - 🎨 Subgraph data recording and GraphQL queries
 
 
+## 🧑‍💻 Work Experience
+
+### 57blocks — Full-Stack Engineer (2023-08 - Present)
+- 📍 Chengdu, China (Remote)
+- 🔗 Key Projects: Story Protocol - Public Domain IP, Soul Wallet - Elytro, Stellar Resource Usage Report, Dolphin & ChainSpan - Web3 Hackathon
+- • Led front-end architecture and SEO improvements across multiple products
+- • Delivered Web3 DApps with wallet integrations (Dynamic, MetaMask), account abstraction, and on-chain interactions
+- • Implemented Node.js automation for blockchain monitoring and data ingestion
+- • Built Stellar resource usage analytics library with comprehensive test coverage
+- • Contributed to Chrome extension wallet (Elytro) with WebAuthn and EIP-6369 messaging
+
+
+## 🎓 Education
+
+### Chengdu University — B.S. in Software Engineering (2014-09 - 2018-06)
+- • Coursework: Data Structures, Computer Networks, Database Systems, Software Engineering
+- • Activities: Programming contests and open-source contributions
+
+
 ## 📊 This Week I Spent My Time On
 
 <!--START_SECTION:waka-->
@@ -189,19 +210,12 @@ Other        1 hr 10 mins    ██░░░░░░░░░░░░░░░
 
 <div align="center">
   
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zhangzewei)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/zhangzewei)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zewei.zhang@57blocks.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://zhangzewei.dev)
-[![Blog](https://img.shields.io/badge/Blog-FFA500?style=for-the-badge&logo=rss&logoColor=white)](https://blog.zhangzewei.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%E6%B3%BD%E7%8E%AE-%E5%BC%A0-b459a527a/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/Zhang_Ze_Wei)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:453646474@qq.com)
+[![Blog](https://img.shields.io/badge/Blog-FFA500?style=for-the-badge&logo=rss&logoColor=white)](https://juejin.cn/user/61228379547288)
 
 </div>
-
-## 💰 Support My Work
-
-If you like my work and want to support me, consider buying me a coffee! ☕
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/zhangzewei)
 
 ---
 

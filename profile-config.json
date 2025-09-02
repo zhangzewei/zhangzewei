@@ -5,12 +5,12 @@
         "location": "Chengdu, China",
         "company": "57blocks",
         "experience": "8+ years",
-        "email": "zewei.zhang@57blocks.com",
+        "email": "453646474@qq.com",
         "githubUsername": "zhangzewei",
-        "portfolioUrl": "https://zhangzewei.dev",
-        "blogUrl": "https://blog.zhangzewei.dev",
-        "linkedinUrl": "https://linkedin.com/in/zhangzewei",
-        "twitterUrl": "https://twitter.com/zhangzewei"
+        "portfolioUrl": "",
+        "blogUrl": "https://juejin.cn/user/61228379547288",
+        "linkedinUrl": "https://www.linkedin.com/in/%E6%B3%BD%E7%8E%AE-%E5%BC%A0-b459a527a/",
+        "twitterUrl": "https://x.com/Zhang_Ze_Wei"
     },
     "aboutMe": {
         "currentWork": "Web3 DApps and full-stack applications at 57blocks",
@@ -23,9 +23,7 @@
         "programmingLanguages": [
             "JavaScript",
             "TypeScript",
-            "Solidity",
-            "C",
-            "PHP"
+            "Solidity"
         ],
         "frontend": [
             "React",
@@ -194,6 +192,40 @@
                 "Account Abstraction Smart Account with Alchemy",
                 "IP token transaction chain with Wagmi",
                 "Subgraph data recording and GraphQL queries"
+            ]
+        }
+    ],
+    "workExperience": [
+        {
+            "company": "57blocks",
+            "role": "Full-Stack Engineer",
+            "location": "Chengdu, China (Remote)",
+            "startDate": "2023-08",
+            "endDate": "Present",
+            "highlights": [
+                "Led front-end architecture and SEO improvements across multiple products",
+                "Delivered Web3 DApps with wallet integrations (Dynamic, MetaMask), account abstraction, and on-chain interactions",
+                "Implemented Node.js automation for blockchain monitoring and data ingestion",
+                "Built Stellar resource usage analytics library with comprehensive test coverage",
+                "Contributed to Chrome extension wallet (Elytro) with WebAuthn and EIP-6369 messaging"
+            ],
+            "projects": [
+                "Story Protocol - Public Domain IP",
+                "Soul Wallet - Elytro",
+                "Stellar Resource Usage Report",
+                "Dolphin & ChainSpan - Web3 Hackathon"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Chengdu University",
+            "degree": "B.S. in Software Engineering",
+            "startDate": "2014-09",
+            "endDate": "2018-06",
+            "details": [
+                "Coursework: Data Structures, Computer Networks, Database Systems, Software Engineering",
+                "Activities: Programming contests and open-source contributions"
             ]
         }
     ]
