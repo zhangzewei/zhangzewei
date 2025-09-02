@@ -190,10 +190,18 @@ async function generateReadme(config) {
     }
     const socialLinksBlock = `<div align="center">\n  \n${socialLinks.join('\n')}\n\n</div>`;
 
+    const typingLines = [
+        personalInfo.title,
+        'Web3 Developer',
+        'Blockchain Enthusiast',
+        `${personalInfo.experience} Experience!`
+    ];
+    const linesParam = typingLines.map(line => `lines=${encodeURIComponent(line)}`).join('&');
+
     const readme = `# Hi there, I'm ${personalInfo.name}! 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=${personalInfo.title.replace(/\s+/g, '+')};Web3+Developer;Blockchain+Enthusiast;${personalInfo.experience}+Experience!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&${linesParam}" alt="Typing SVG" />
 </div>
 
 ## 🚀 About Me

@@ -1,7 +1,7 @@
 # Hi there, I'm Zewei Zhang! 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer;Web3+Developer;Blockchain+Enthusiast;8+ years+Experience!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Full-Stack%20Engineer&lines=Web3%20Developer&lines=Blockchain%20Enthusiast&lines=8%2B%20years%20Experience!" alt="Typing SVG" />
 </div>
 
 ## 🚀 About Me
